@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="bower_components/d3/d3.js"></script>
+    <script type="text/javascript" src="bower_components/momentjs/min/moment.min.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    
+    
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+    <title>MBTA Turnstile heatmap</title>
+  </head>
+  <body>
+    <h1>MBTA Turnstyle Heatmap</h1>
+    <p class="notes">
+    Shows the entrances and exits for each stop on the T over the month of February.  Entrances are on the left, exits are on the right.  Hover over a point to see the time and value, click to lock it.  Note this dataset will take up to 20 seconds to render after the data has been loaded.</p>
+    <div class="progress"></div>
+    <div class="graphic"></div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
